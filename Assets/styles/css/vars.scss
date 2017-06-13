@@ -1,0 +1,48 @@
+/*fonts */
+@font-face {
+	font-family: 'frutiger-bold';
+	src: url('../fonts/FrutigerLT-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'frutiger-black';
+	src: url('../fonts/FrutigerLT-Black.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'frutiger-roman';
+	src: url('../fonts/FrutigerLT-Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// FONT VARIABLES = = = = = = =
+
+$sans: "frutiger-roman", Arial, sans-serif;
+$sansBold: 'frutiger-bold', Arial, sans-serif;
+$sansBlack: 'frutiger-black', Arial, sans-serif;
+
+
+%sans {
+	font-family: $sans;
+	font-weight: normal;
+}
+%sansBold {
+	font-family: $sansBold;
+	font-weight: bold;
+}
+%sansBlack {
+	font-family: $sansBlack;
+	font-weight: black;
+}
+
+$primary: #FFD401;
+$black: #000000;
+$white: #FFFFFF;
+$lightGray: #FBFBFB;
+$mediumGray: #DDDDDC;
+$darkGray: #7F7F7F;

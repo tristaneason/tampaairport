@@ -1,0 +1,28 @@
+.warning-box {
+	background-color: $primary;
+	color: $black !important;
+  img {
+    height: 60%;
+    &.attention-img-left {
+      float: left;
+      margin-left: 50px;
+    }
+    &.attention-img-right {
+      float: right;
+      margin-right: 50px;
+    }
+  }
+  .bot-p {
+    @extend %sansBold;
+  	font-weight: normal;
+    font-size: 29px;
+  	text-align: center;
+    em {
+  		font-size: 0.9em;
+      font-style: normal;
+    }
+  }
+  .sub-p {
+    margin-top: 0px;
+  }
+}

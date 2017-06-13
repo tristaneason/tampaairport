@@ -1,0 +1,84 @@
+.onBoard {
+  .row-w-pad {
+    td {
+      vertical-align: middle;
+    }
+    .doors-close-img {
+      float: left;
+      height: 250px;
+      padding-left: 100px;
+    }
+    .doors-close-text {
+      margin-top: 3.3em;
+      padding-left: 34em;
+    }
+  }
+  h1 {
+    font-size: 3.2em;
+  }
+  p.sub-p {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  hr {
+    width: 11%;
+    border-width: 2px;
+  }
+  p.ns-p {
+    font-size: 1.7em;
+    line-height: 1.35em;
+    width: 100%;
+  }
+  p.list-p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  img.logo {
+    width: 64%;
+  }
+  .activeBox {
+    hr {
+      width: 35%;
+    }
+    h1 {
+      font-size: 2.25em;
+    }
+    .sub-p {
+      margin-top: 0px;
+      font-size: 1.5em;
+    }
+  }
+  .bot-box {
+    img {
+      height: 50%;
+    }
+  }
+  .arrow-box {
+    width: 40px;
+    height: 40px;
+    transform: translate(-20px, -50%);
+  }
+  .time-h1 {
+    font-size: 2.75em;
+  }
+  .date-col {
+    p {
+      font-size: 1.25em;
+    }
+  }
+  .topCell-left {
+    width: 83%;
+    padding: 0 3% 0 5%;
+  }
+  .topCell-right {
+    width: 17%;
+    text-align: center;
+  }
+  td.topCell-right {
+    vertical-align: top;
+  }
+  td.logo-row {
+    padding-top: 21%;
+    text-align: center;
+  }
+}

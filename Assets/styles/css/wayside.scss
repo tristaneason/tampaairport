@@ -1,0 +1,88 @@
+.platform {
+  .row-w-pad {
+    padding: 1.4% 4.4%;
+    td {
+      vertical-align: top;
+    }
+  }
+  h1 {
+  	font-size: 3.8em;
+  }
+  p.sub-p {
+  	font-size: 1.8em;
+  	line-height: 0.9em;
+  }
+  hr {
+    width: 8%;
+    border-width: 3px;
+  }
+  p.ns-p {
+    font-size: 1.6em;
+    line-height: 1.5em;
+    width: 98%;
+  }
+  p.instance-p {
+    font-size: 1.6em;
+  }
+  p.list-p {
+    font-size: 30px;
+  	line-height: 42px;
+  }
+  img.logo {
+    float: right;
+  	width: 159px;
+  }
+  .activeBox {
+    hr {
+      width: 38%;
+    }
+    .sub-p {
+      margin-bottom: -8px;
+      font-size: 1.7em;
+    }
+  }
+  .bot-box {
+    img {
+      width: 12%;
+    }
+  }
+  .date-col {
+    p {
+      font-size: 1.75em;
+    }
+  }
+  .logo-row {
+    vertical-align: bottom;
+  }
+  .doors-img {
+    height: 315px;
+  }
+  &.special-message-middle {
+    hr {
+      position: absolute;
+    }
+    .hr-padding {
+      padding-top: 35px;
+      h2 {
+        @extend %sansBold;
+        font-size: 2.7em;
+      }
+      p {
+        font-size: 2em;
+        font-weight: 100;
+      }
+    }
+  }
+  &.special-message-bottom {
+    table {
+      background-color: $lightGray;
+      padding: 45px;
+      width: 100%;
+      p {
+        font-size: 2em;
+        font-weight: 100;
+        width: 850px;
+      }
+    }
+  }
+}

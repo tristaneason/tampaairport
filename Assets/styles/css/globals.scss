@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: middle;
+	border-spacing: 0px;
+	border-collapse: separate;
+}
+
+body {
+  @extend %sans;
+	margin: 0;
+}
+
+/* row style */
+.row-w-pad {
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+/* content styles */
+h1 {
+  line-height: 1em;
+  margin-bottom: 0.2em;
+  margin-top: 0.1em;
+}
+
+p.sub-p {
+  margin: 0;
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: solid $black;
+  margin: 0;
+  margin-top: 1.7%;
+}
+
+p.ns-p {
+  margin-top: 0.6em;
+}
+
+p.list-p {
+  font-weight: normal;
+  margin-top: 0px;
+  em {
+  	font-style: normal;
+  	font-weight: lighter;
+  }
+}
+
+.frameRow {
+	margin-bottom: -1px;
+}
+
+.topbg01,
+.middlebg01 {
+	background: $lightGray;
+}
+
+tr.topRow {
+	height: 100%;
+}
+
+td.logo-row {
+	vertical-align: top;
+}
+
+.middleIcon {
+	background: $primary;
+	border-radius: 50%;
+	height: 0;
+	padding-bottom: 100%;
+	position: relative;
+	text-align: center;
+	width: 100%;
+  img {
+    filter: brightness(0);
+  	height: 60%;
+  	left: 50%;
+  	margin-top: 20%;
+  	position: absolute;
+  	transform: translateX(-50%);
+    &.middleIcon-parking {
+      height: 50%;
+      margin-top: 25%;
+      transform: translateX(-45%);
+    }
+  }
+}
+
+.topIcon {
+  background: $primary;
+	border-radius: 50%;
+  float: left;
+  height: 69px;
+  margin-right: 20px;
+  width: 69px;
+  img {
+    height: 34.5px;
+    transform: translate(20px, 17px);
+  }
+}
+
+.iconLeft {
+	margin-right: 33px;
+	position: relative;
+	width: 13.5%;
+}

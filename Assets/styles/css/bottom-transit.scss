@@ -1,0 +1,84 @@
+.bot-box {
+	background-color: $black;
+	color: $white !important;
+	font-size: 0;
+	position: relative;
+  img {
+		display: inline-block;
+    filter: brightness(10);
+	  font-size: 0;
+	  margin-right: 5%;
+	  vertical-align: middle;
+  }
+}
+
+.activeBox {
+	background-color: $primary;
+	color: $black !important;
+  img {
+    filter: brightness(0);
+  }
+  hr {
+  	border-top: 2px solid $white;
+  }
+  p.ns-p {
+  	font-weight: lighter;
+  }
+  .bot-p {
+  	font-weight: normal;
+  }
+  .sub-p {
+    margin-top: 0px;
+  }
+}
+
+.bypass-box {
+	background-color: $mediumGray;
+	color: $darkGray !important;
+	img {
+		filter: invert(52%);
+	}
+}
+
+.bot-p {
+	@extend %sansBold;
+	font-size: 29px;
+	text-align: center;
+  em {
+		font-size: 0.9em;
+    font-style: normal;
+  }
+}
+
+.arrow-box {
+  background: $primary;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  transform: translate(-23px, -50%);
+  top: 50%;
+  width: 50px;
+  z-index: 10;
+	img {
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		width: 36%;
+	}
+  img.arrowFacing-left {
+    transform: rotate(180deg);
+    transform-origin: 22% 24%;
+  }
+  img.arrowFacing-right {
+    transform-origin: 22% 24%;
+  }
+}
+.arrowOn-left {
+  left: 33.333%;
+}
+.arrowOn-right {
+  left: 66.666%;
+}
+.arrow-img {
+}
