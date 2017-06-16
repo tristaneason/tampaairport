@@ -17,9 +17,7 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: middle;
 	border-spacing: 0px;
-	border-collapse: separate;
 }
-
 body {
   @extend %sans;
 	margin: 0;
@@ -114,12 +112,15 @@ td.logo-row {
   width: 69px;
   img {
     height: 34.5px;
-    transform: translate(20px, 17px);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
 .iconLeft {
 	margin-right: 33px;
 	position: relative;
-	width: 13.5%;
+	width: 82px;
 }

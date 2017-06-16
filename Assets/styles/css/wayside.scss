@@ -61,6 +61,9 @@
     hr {
       position: absolute;
     }
+    .messageText {
+      padding: 0;
+    }
     .hr-padding {
       padding-top: 35px;
       h2 {
@@ -72,17 +75,43 @@
         font-weight: 100;
       }
     }
+    table {
+      p {
+        font-size: 2em;
+        font-weight: 100;
+      }
+
+      &.outOfService, &.onDemand {
+        background-color: #ffd400;
+        padding: 0 20px;
+
+        p {
+          font-size: 1.5em;
+        }
+      }
+      &.onDemand {
+        background-color: #DDDDDC;
+        color: #7F7F7F !important;
+      }
+    }
+
   }
   &.special-message-bottom {
     table {
       background-color: $lightGray;
-      padding: 45px;
+      padding: 20px 45px;
       width: 100%;
+      height: 50px;
       p {
         font-size: 2em;
         font-weight: 100;
         width: 850px;
       }
+    }
+
+
+    .messageText {
+      padding: 0;
     }
   }
 }
